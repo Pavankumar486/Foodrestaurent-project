@@ -1,0 +1,43 @@
+
+
+<nav class="navbar">
+    <div class="container-fluid ">
+        <h1></h1>
+        <div class="d-flex mt-5">
+            <!-- <button (click)=" clickAddProd()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal ">Add User</button> -->
+        </div>
+    </div>
+</nav>
+
+<table class="table table-stripped mt-4">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Food</th>
+            <th scope="col"> Tag</th>
+            <th scope="col">Phone </th>
+            <th scope="col">Addres</th>
+            <th scope="col">action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let o of orderData">
+            <td>{{o.id}}</td>
+            <td>{{o.food}}</td>
+            <td>{{o.tag}}</td>
+            <td>{{o.phone}}</td>
+            <td>{{o.addres}}</td>
+            <td>
+
+                <!-- <button (click)="onEdit(u)" class="btn btn-primary" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button> -->
+                <button (click)="deleteOrders(o)" class="btn btn-danger mx-3">Delete</button>
+
+            </td>
+
+        </tr>
+    </tbody>
+</table>
+
+
+

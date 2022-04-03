@@ -1,0 +1,26 @@
+  <nav>
+  <ul><div class="logo"><a routerLink="/nav">Foodie🍕Time</a></div></ul>
+ 
+  <ul>
+  
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="foodcards">Offers</a></li>
+      <li><a routerLink="contact">Contact</a></li>
+      <li><a routerLink="feedback">Feedback</a></li>
+
+      <div class="dropdown">
+        <ul>
+      <li>  <a routerLink="login">Login
+          <i class="fa fa-caret-down"></i>
+        </a></li> 
+      </ul>
+        <div class="dropdown-content">
+        <li> <a routerLink="signup">User</a></li> 
+        <li> <a routerLink="sign">Admin</a></li> 
+
+        </div>
+      </div>  
+      <li><a routerLink="logout">Logout</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>

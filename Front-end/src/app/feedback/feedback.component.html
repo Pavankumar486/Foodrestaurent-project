@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>feedback page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+
+        <section id="test">
+            <div class="test-heading">
+                <span>Feedback</span>
+                <h1>what our customers said </h1>
+            </div>
+            <div class="test-box-container">
+                <div class="test-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="assets\msd.jpg">
+                            </div>
+                            <div class="name-user">
+                                <strong>karthik</strong>
+                                <span>@karthik710</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+
+
+                        </div>
+
+                    </div>
+                    <div class="client-comments">
+                        <p>I had a great time eating delicious food at your restuarant.the waiters and waitresses were so commited to great services and very friendly.the atmosphere was awesome and i like your design it is in a very modern style.Most importantly,every food and every drink on your menu tatsed great </p>
+                    </div>
+                </div>
+            </div>
+            <div class="test-box-container">
+                <div class="test-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="../assets/raina.jpg">
+                            </div>
+                            <div class="name-user">
+                                <strong>Mohith</strong>
+                                <span>@Mohithk9014</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+
+                        </div>
+                    </div>
+                    <div class="client-comments">
+                        <p> Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so its worth checking them out before you book. Highly recommended.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="test-box-container">
+                <div class="test-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="../assets/kohli.jpg">
+                            </div>
+                            <div class="name-user">
+                                <strong>Giri</strong>
+                                <span>@Giri522</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+                          <fa-icon [icon]="fastar"></fa-icon>
+
+
+
+                        </div>
+                    </div>
+                    <div class="client-comments">
+                        <p>The pizza here is real amazing and would recommend trying these guys out. They have a great toppings selections and great prices on a single sliced.Authentic Italian pizza. Made just the way it was back in 1933, I’m sure. No other pizza compares to this one</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-box-container">
+              <div class="test-box">
+                  <div class="box-top">
+                      <div class="profile">
+                          <div class="profile-img">
+                              <img src="../assets/rohith1.jpg">
+                          </div>
+                          <div class="name-user">
+                              <strong>Harish</strong>
+                              <span>@Harish888</span>
+                          </div>
+                      </div>
+                      <div class="reviews">
+                        <fa-icon [icon]="fastar"></fa-icon>
+                        <fa-icon [icon]="fastar"></fa-icon>
+                        <fa-icon [icon]="fastar"></fa-icon>
+                        <fa-icon [icon]="fastar"></fa-icon>
+
+
+
+                      </div>
+                  </div>
+                  <div class="client-comments">
+                      <p> This is my absolute favorite restaurant in. The food is always fantastic and no matter what I order I am always delighted with my meal! Servers are also great and always efficient, happy and polite. Cant wait to return and wouldnt hesitate to recommend to anyone looking for somewhere to eat in </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="test-box-container">
+            <div class="test-box">
+<div>
+  <h1>Give Your Feedback</h1>
+</div>
+
+
+  <div class="id">
+    <h3>Name</h3>
+    <input type="text" placeholder="FullName" width="80%" height="80%">
+
+
+</div><br>
+<div class="id">
+  <h3>Email</h3>
+  <input type="email" placeholder="Email Address">
+
+
+</div><br>
+<div class="id">
+<h3>Phone No</h3>
+  <input type="text" placeholder="Phone No">
+
+
+</div><br>
+<h3>Comments</h3>
+<textarea cols="20" rows="4" placeholder="Enter Your Opinions...."></textarea>
+<div> <button type="submit" value="submit"  (click)=" getCode()">Submit</button></div>
+
+            </div>
+
+        </div>
+
+        </section>
+
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Our Address</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Banglore, India</p>
+                                    <p><i class="fa fa-phone-alt"></i>+91 8019168599</p>
+                                    <p><i class="fa fa-envelope"></i>freshfood@gmail.com</p>
+                                    <div class="footer-social">
+                                        <a href=""><img src="https://img.icons8.com/material-sharp/24/ffffff/twitter.png"/></a>
+                                        <a href=""><img src="https://img.icons8.com/ios-filled/19/ffffff/facebook--v1.png"/></a>
+                                        <a href=""><img src="https://img.icons8.com/material-rounded/24/ffffff/youtube-play.png"/></a>
+                                        <a href=""><img src="https://img.icons8.com/material-sharp/24/ffffff/instagram-new.png"/></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Quick Links</h2>
+                                    <li style="list-style-type:none;">⮞ Terms of use</li>
+                                    <li style="list-style-type:none;">⮞ Privacy policy</li>
+                                    <li style="list-style-type:none;">⮞ Cookies</li>
+                                    <li style="list-style-type:none;">⮞ Help</li>
+                                    <li style="list-style-type:none;">⮞ FQAs</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>Newsletter</h2>
+                            <p>
+                                A newsletter is an email you can send to customers to update them about your brand's latest products and services. You can also share valuable industry news or blog posts or inform them about your discounts and offers.
+                            </p>
+                            <div class="form">
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn custom-btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+    </body>
+    </html>
+

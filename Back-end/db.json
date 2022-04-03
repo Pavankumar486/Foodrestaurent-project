@@ -1,0 +1,352 @@
+{
+  "users": [
+    {
+      "id": 6,
+      "name": "aravindh",
+      "email": "aravindh @gmail.com",
+      "mobile": "8019198786",
+      "address": "kadapa"
+    },
+    {
+      "id": 4,
+      "name": "Kamal jyothi Battula",
+      "email": "bjyothi039@gmail.com",
+      "mobile": "80191968599",
+      "address": "13-3-27/2, Kommana Street, Ichapuram ,Andhra Pradesh(532312), Srikakulam District"
+    },
+    {
+      "name": "aswini",
+      "email": "k@123",
+      "mobile": "9797968",
+      "password": "123456",
+      "id": 12
+    },
+    {
+      "name": "kam",
+      "email": "k@123",
+      "mobile": "92749547259",
+      "password": "12345",
+      "id": 13
+    },
+    {
+      "name": "kam",
+      "email": "k@123",
+      "mobile": "92749547259",
+      "password": "12345",
+      "id": 14
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "86766464",
+      "password": "K@123",
+      "id": 15
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "86766464",
+      "password": "K@123",
+      "id": 16
+    },
+    {
+      "name": "k",
+      "email": "k@123",
+      "mobile": "03904947964",
+      "password": "12345",
+      "id": 17
+    },
+    {
+      "name": "k",
+      "email": "k@123",
+      "mobile": "03904947964",
+      "password": "12345",
+      "id": 18
+    },
+    {
+      "name": "k",
+      "email": "k@1234",
+      "mobile": "546566",
+      "password": "12345",
+      "id": 19
+    },
+    {
+      "name": "k",
+      "email": "k@1234",
+      "mobile": "546566",
+      "password": "12345",
+      "id": 20
+    },
+    {
+      "name": "k",
+      "email": "123@123",
+      "mobile": "436564577",
+      "password": "123456",
+      "id": 21
+    },
+    {
+      "name": "k",
+      "email": "123@123",
+      "mobile": "436564577",
+      "password": "123456",
+      "id": 22
+    },
+    {
+      "name": "kam",
+      "email": "k@123",
+      "mobile": "4563667",
+      "password": "123",
+      "id": 23
+    },
+    {
+      "name": "kam",
+      "email": "k@123",
+      "mobile": "4563667",
+      "password": "123",
+      "id": 24
+    },
+    {
+      "id": 25,
+      "name": "ara",
+      "email": "ar@123",
+      "mobile": "678890-",
+      "address": "kap"
+    },
+    {
+      "name": "aravind",
+      "email": "aravind@123",
+      "mobile": "123",
+      "password": "123",
+      "id": 26
+    },
+    {
+      "name": "aravind",
+      "email": "aravind@123",
+      "mobile": "123",
+      "password": "123",
+      "id": 27
+    },
+    {
+      "address": "ap",
+      "department": "Project Lead",
+      "email": "jhansi@gmail.com",
+      "id": 28,
+      "name": "jhansi",
+      "salary": 2500
+    },
+    {
+      "name": "k",
+      "email": "b@123",
+      "mobile": "6567567",
+      "password": "B123",
+      "id": 29
+    },
+    {
+      "name": "k",
+      "email": "b@123",
+      "mobile": "6567567",
+      "password": "B123",
+      "id": 30
+    },
+    {
+      "name": "kamal",
+      "email": "k@gmail.com",
+      "mobile": "8019168599",
+      "password": "Kamal",
+      "id": 31
+    },
+    {
+      "name": "kamal",
+      "email": "k@gmail.com",
+      "mobile": "8019168599",
+      "password": "Kamal",
+      "id": 32
+    },
+    {
+      "name": "aravindh",
+      "email": "arvindh@gmail.com",
+      "mobile": "8019168599",
+      "password": "Aravindh",
+      "id": 33
+    },
+    {
+      "name": "aravindh",
+      "email": "arvindh@gmail.com",
+      "mobile": "8019168599",
+      "password": "Aravindh",
+      "id": 34
+    },
+    {
+      "name": "aswini",
+      "email": "aswini@gmail.com",
+      "mobile": "78965432",
+      "password": "Aswini",
+      "id": 35
+    },
+    {
+      "name": "aswini",
+      "email": "aswini@gmail.com",
+      "mobile": "78965432",
+      "password": "Aswini",
+      "id": 36
+    },
+    {
+      "name": "kamaljy",
+      "email": "k@123",
+      "mobile": "4253646456",
+      "password": "12345",
+      "id": 37
+    },
+    {
+      "name": "kamaljy",
+      "email": "k@123",
+      "mobile": "4253646456",
+      "password": "12345",
+      "id": 38
+    },
+    {
+      "name": "jyo",
+      "email": "jyo@gmail.com",
+      "mobile": "46464646",
+      "password": "Jyoothi",
+      "id": 39
+    },
+    {
+      "name": "jyo",
+      "email": "jyo@gmail.com",
+      "mobile": "46464646",
+      "password": "Jyoothi",
+      "id": 40
+    },
+    {
+      "name": "jyo",
+      "email": "jyo@gmail.com",
+      "mobile": "435364664",
+      "password": "Jyothi",
+      "id": 41
+    },
+    {
+      "name": "jyo",
+      "email": "jyo@gmail.com",
+      "mobile": "435364664",
+      "password": "Jyothi",
+      "id": 42
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "8019168599",
+      "password": "12345",
+      "id": 43
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "8019168599",
+      "password": "12345",
+      "id": 44
+    }
+  ],
+  "admins": [
+    {
+      "name": "kamaljy",
+      "email": "k@123",
+      "mobile": "4253646456",
+      "password": "12345",
+      "id": 38
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "435364646",
+      "password": "12345",
+      "id": 39
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "435364646",
+      "password": "12345",
+      "id": 40
+    },
+    {
+      "name": "Kamal",
+      "email": "kamal@gmail.com",
+      "mobile": "5647474",
+      "password": "Kamal",
+      "id": 41
+    },
+    {
+      "name": "Kamal",
+      "email": "kamal@gmail.com",
+      "mobile": "5647474",
+      "password": "Kamal",
+      "id": 42
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "345345646",
+      "password": "123456",
+      "id": 43
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "345345646",
+      "password": "123456",
+      "id": 44
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "748264826498",
+      "password": "12345",
+      "id": 45
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@123",
+      "mobile": "748264826498",
+      "password": "12345",
+      "id": 46
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "64647647",
+      "password": "12345",
+      "id": 47
+    },
+    {
+      "name": "kamal",
+      "email": "k@123",
+      "mobile": "64647647",
+      "password": "12345",
+      "id": 48
+    }
+  ],
+  "offers": [
+    {
+      "id": 4,
+      "food": "chicken",
+      "price": "200",
+      "offer": "30%",
+      "description": "Tasty"
+    },
+    {
+      "id": 3,
+      "food": "soup",
+      "price": "100",
+      "offer": "50%",
+      "description": "Delicious food"
+    },
+    {
+      "id": 5,
+      "food": "pizza",
+      "price": "300",
+      "offer": "70%",
+      "description": "Yummy"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display:flex;
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+
+}
+
+ul .logo a
+{   
+    color:#cc2b5e;
+    font-size: 30px;
+}
+ul .logo a:hover{
+    color: #fbaf32;
+}
+nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    font-weight: bold;
+    margin: 0 5px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+nav ul li a{
+    
+  background: -webkit-linear-gradient(#cc2b5e, #753a88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    padding:8px 8px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: color 0.5s;
+
+
+}
+
+nav ul li:hover{
+border-bottom: 1px solid black;
+}
+nav ul li a:hover{
+    background: -webkit-linear-gradient(#9C4F96,#2AA8F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav .menu-btn i{
+    color:white;
+    font-size:22px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* dropdown */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#ffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.dropdown a{
+    background: -webkit-linear-gradient(#cc2b5e, #753a88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    padding:8px 8px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: color 0.5s;
+}
